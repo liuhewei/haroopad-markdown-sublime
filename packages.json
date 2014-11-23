@@ -7,7 +7,7 @@
             "releases": [
                 {
                     "sublime_text": "*",
-                    "details": "https://github.com/liuhewei/haroopad-markdown-sublime/tags"
+                    "details": "https://github.com/liuhewei/haroopad-markdown-sublime/tree/master"
                 }
             ]
         }

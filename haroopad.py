@@ -18,7 +18,7 @@ class HaroopadCommand(sublime_plugin.WindowCommand):
             if sublime.platform() == 'osx':
                 subprocess.call(['open', '-a', 'Haroopad', filename], env=proc_env)
             else:
-                subprocess.call(['Haroopad', filename], env=proc_env) 
+                subprocess.Popen(['Haroopad', filename]) 
         except:
             sublime.error_message('Unable to open current file with Haroopad, probably not add Haroopad into system PATH, check the Console.')
 

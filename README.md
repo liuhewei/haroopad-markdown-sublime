@@ -3,7 +3,7 @@
 
 Adds a handy command and menu item to open your current file with [Haroopad](http://pad.haroopress.com/).
 
-The implementation is borrowed from [mou.app markdown](https://github.com/rwoody/mou-markdown-sublime), and adds Windows/Linux support.
+The implementation is motivated by [mou.app markdown](https://github.com/rwoody/mou-markdown-sublime).
 
 ## Installation Instructions
 
@@ -22,7 +22,7 @@ The implementation is borrowed from [mou.app markdown](https://github.com/rwoody
 * Restart Sublime Text 3
 
 ## Configure
-* Add Haroopad binary's directory into System PATH on Windows and Linux
+* Open User-settings to add the full path of Haroopad binary on Windows and Linux
 * In Haroopad's Preferences, de-activate the "file auto-recovery" in "General" tab.
 
 ## Usage

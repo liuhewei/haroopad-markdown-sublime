@@ -8,5 +8,39 @@
                 "command": "haroopad"
             }
         ]
+    },
+
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Haroopad Markdown",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Haroopad Markdown/Default.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Haroopad Markdown.sublime-settings"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]

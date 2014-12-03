@@ -1,6 +1,5 @@
-import os
-import sys
-import subprocess
+# import os
+# import sys
 import sublime
 import sublime_plugin
 
@@ -10,15 +9,15 @@ class HaroopadCommand(sublime_plugin.WindowCommand):
         if filename is None:
             return
 
-        proc_env = os.environ.copy()
-        encoding = sys.getfilesystemencoding()
-        for k, v in proc_env.items():
-            proc_env[k] = os.path.expandvars(v).encode(encoding)
+        s = sublime.load_settings("Haroopad Markdown.sublime-settings")
+        app = s.get("app")
+
+        import subprocess
         try:
             if sublime.platform() == 'osx':
-                subprocess.call(['open', '-a', 'Haroopad', filename], env=proc_env)
+                subprocess.Popen(['open', '-a', app, filename])
             else:
-                subprocess.Popen(['Haroopad', filename]) 
+                subprocess.Popen([app, filename]) 
         except:
             sublime.error_message('Unable to open current file with Haroopad, probably not add Haroopad into system PATH, check the Console.')
 

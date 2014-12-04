@@ -19,7 +19,7 @@ class HaroopadCommand(sublime_plugin.WindowCommand):
             else:
                 subprocess.Popen([app, filename]) 
         except:
-            sublime.error_message('Unable to open current file with Haroopad, probably not add Haroopad into system PATH, check the Console.')
+            sublime.error_message('Unable to open current file with Haroopad, probably incorrect path, check the Console.')
 
     def is_enabled(self):
         return True

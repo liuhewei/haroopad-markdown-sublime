@@ -22,7 +22,14 @@ The implementation is motivated by [mou.app markdown](https://github.com/rwoody/
 * Restart Sublime Text 3
 
 ## Configure
-* Open User-settings to add the full path of Haroopad binary on Windows and Linux
+* Open User-settings to add the full path of Haroopad binary on Windows and Linux, for example:
+
+```
+{
+   "app": "D:/Program Files/Haroo Studio/Haroopad/haroopad.exe"
+}
+```
+
 * In Haroopad's Preferences, de-activate the "file auto-recovery" in "General" tab.
 
 ## Usage

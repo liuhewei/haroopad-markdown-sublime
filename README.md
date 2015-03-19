@@ -1,5 +1,5 @@
 
-(Deprecated, please use another more featured plugin : (Run apps)[https://github.com/liuhewei/run-app-sublime])
+(Deprecated, please use another more featured plugin : [Run apps](https://github.com/liuhewei/run-app-sublime)
 
 # Haroopad Markdown - Sublime Text 3
 

@@ -1,4 +1,6 @@
 
+(Deprecated, please use another more featured plugin : (Run apps)[https://github.com/liuhewei/run-app-sublime])
+
 # Haroopad Markdown - Sublime Text 3
 
 Adds a handy command and menu item to open your current file with [Haroopad](http://pad.haroopress.com/).
